@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="theme-color" content="#ec2327">
+	<title>Garces Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Garces is a Philadelphia-based hospitality group specializing in personal dining experiences rooted in the rich cultural traditions and culinary vision of James Beard Award-winning Latin-American Chef Jose Garces.">
+	<meta name="keywords" content="Garces, Dining, Restaurants, Jose Carces, Chef Jose Garces, Garces Events, Garces Foundation, Luna Farm, Philadelphia, Culinary">
+	<meta name="author" content="Garces">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+		img[alt="www.000webhost.com"]{
+			display:none !important;
+		}
+		.exclamation{
+  background-image:url("img/Social-Logo.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+		.slide1, .slide2, .slide3, .slide4{
+  height:956px;
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+	background-color:#f69b4c;
+}
+		.slide1{
+  background-image:url("img/slide-1.jpg");
+}
+		.slide2{
+  background-image:url("img/slide-2.jpg");
+}
+		.slide3{
+  background-image:url("img/slide-3-1.jpg");
+}
+		.slide4{
+  background-image:url("img/slide-4.jpg");
+}
+		.mobileMenuLinks a:hover, nav a:visited{
+  color:#ec2327;
+  background-image:url(img/hover-effect.png);
+  background-size:38px 5px;
+  background-repeat:no-repeat;
+  background-position:top center;
+}
+		@media only screen and (max-width:768px){
+			.slide1, .slide2, .slide3, .slide4{
+		background-size:100%;
+		height:250px;
+		margin-top:90px;
+	}
+			.mobileMenuLinks a:hover, .mobileMenuLinks a:visited{
+    background-image:none;
+  }
+		}
+	</style>
+</head>
+<body class = "relative">
+ <nav class = "full-ctn text-center fixed">
+   <div class="row">
+     <div class="db-col-3 logo">
+			 <a href="index.html"><img src="img/theLogo.png"></a>
+			 <ul>
+			 	<li class = "menuBtn absolute" style = "border-bottom:none;">
+					<a href="javascript:void(0);" class="icon" style = "color:#ffffff;"><i class="fa fa-bars fa-1x" style = "padding-right:15px;"></i></a>
+				 </li>
+			 </ul>
+		 </div>
+     <div class="db-col-9 menu">
+<!-- 			 <ul>
+			 	<li class = "menuBtn" style = "border-bottom:none;">
+					<a href="javascript:void(0);" class="icon" style = "color:#ffffff;"><i class="fa fa-bars fa-1x" style = "padding-right:15px;"></i></a>
+				 </li>
+			 </ul> -->
+       <ul class = "mobileMenu">
+         <li class = "mobileMenuLinks">
+           <a href="index.html"><i id = "myIcons" class="fa fa-home fa-2x myIcons"></i>HOME</a>
+         </li>
+         <li class = "mobileMenuLinks">
+           <a href="http://garcesgroup.com/restaurants"><i id = "myIcons" class="fa fa-cutlery fa-2x"></i>RESTAURANTS</a>
+         </li>
+         <li class = "mobileMenuLinks">
+           <a href="http://garcesgroup.com/about"><i id = "myIcons" class="fa fa-info-circle fa-2x"></i>ABOUT</a>
+         </li>
+         <li class = "mobileMenuLinks">
+           <a href="http://garcesgroup.com/gift-and-loyalty"><i id = "myIcons" class="fa fa-gift fa-2x"></i>LOYALTY AND GIFT CARDS</a>
+         </li>
+         <li class = "mobileMenuLinks">
+           <a href="http://garcesgroup.com/garces-events"><i id = "myIcons" class="fa fa-calendar fa-2x "></i>UPCOMING EVENTS</a>
+         </li>
+         <li class = "mobileMenuLinks">
+           <a href="http://garcesgroup.com/contact.html"><i id = "myIcons" class="fa fa-phone-square fa-2x "></i>CONTACT</a>
+				 </li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+<div id="mySlideShow relative">
+	<div class = "mySlides fade" class="full-ctn">
+		<div class="slide1"></div>
+		<div class="numberText absolute">
+		<p class = "currentNum absolute">1</p>
+					<img class = "slant absolute" src="img/slant.png" alt="">
+					<p class = "totalNum absolute">4</p>
+		</div>
+</div>
+	<div class = "mySlides fade" class="full-ctn">
+		<div class="slide2"></div>
+		<div class="numberText absolute">
+		<p class = "currentNum absolute">2</p>
+					<img class = "slant absolute" src="img/slant.png" alt="">
+					<p class = "totalNum absolute">4</p>
+		</div>
+</div>
+	<div class = "mySlides fade" class="full-ctn">
+	<div class="slide3"></div>
+		<div class="numberText absolute">
+		<p class = "currentNum absolute">3</p>
+					<img class = "slant absolute" src="img/slant.png" alt="">
+					<p class = "totalNum absolute">4</p>
+		</div>
+</div>
+	<div class = "mySlides fade" class="full-ctn">
+		<div class="slide4"></div>
+		<div class="numberText absolute">
+			<p class = "currentNum absolute">4</p>
+					<img class = "slant absolute" src="img/slant.png" alt="">
+					<p class = "totalNum absolute">4</p>
+			</div>
+</div>
+	<div class="row overlay absolute">
+				<div class="db-col-12"></div>
+			</div>
+	<div class="prev absolute"><i class="material-icons" style="font-size:36px" onclick="plusSlides(-1)">chevron_left</i></div>
+	<div class="next absolute"><i class="material-icons" style="font-size:36px" onclick="plusSlides(1)">chevron_right</i></div>
+	<div class="controls">
+			<div class="row relative">
+				<div class="db-col-12">
+					<img class = "arrowLeft absolute" src="img/Arrow-Left.png" alt="" onclick="plusSlides(-1)">
+					<img class = "arrowRight absolute" src="img/Arrow-Right.png" alt="" onclick="plusSlides(1)">
+					<div class="arrowRight absolute"></div>
+				</div>
+				<div class="db-col-12" style = "padding-top:60px;">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+				</div>
+			</div>
+		</div>
+</div>
+ <div id="about" class="full-ctn text-left whiteTxt">
+   <div class="fixed-ctn">
+     <div class="row">
+       <div class="db-col-6" data-aos="fade-right" data-aos-easing="ease"
+     data-aos-duration="1500">
+				 <div class="center pull-right">
+					 <div class="redBorder"></div>
+						<h1>We look forward <br> to serving you</h1>
+						<p>We are old-world and contemporary. We are casual date <br> nights and dramatic milestone celebrations. We are <br> farm-to-table-to-food truck. We are dining in and dining <br> out, room service and gourmet to go. We are late-night <br> karaoke, happy hour margaritas, multi-course feasts and <br> the best burger you ever ate.</p>
+					 <p>We are, at heart, a host of worldwide cuisines, each made  intimate and accessible by our head Chef and Founder, <br> Jose Garces.</p>
+					 </div>
+				 </div>
+       <div class="db-col-6 text-center" data-aos="fade-left" data-aos-easing="ease"
+     data-aos-duration="1500">
+         <img src="img/Jose-Garces-2.png" alt="">
+       </div>
+     </div>
+     <div class="row text-center moreInfo">
+       <div class="db-col-4" data-aos="fade-up" data-aos-easing="ease"
+     data-aos-duration="1500">
+				 <div class="pull-right">
+					 <img src="img/Garces-Foundation.png" alt="">
+					 <h2><b>Garces Foundation</b></h2>
+					 <p>Through our restaurants and <br> Luna Farm, we support The Garces <br> Foundation's mission: to help <br> Philadelphia’s immigrants, primarily <br> by funding much-needed healthcare <br> and providing nutritional programming <br> for youth.</p>
+					 <a class = "learnMore" href="http://garcesgroup.com/garces-foundation"><button>Learn More ></button></a>
+				 </div>
+       </div>
+       <div class="db-col-4" data-aos="fade-up" data-aos-easing="ease"
+     data-aos-duration="2000">
+         <img src="img/Luna-Farm.png" alt="">
+         <h2><b>Luna Farm</b></h2>
+         <p>Luna Farm is a sustainable, <br> all-organic 40 - acre farm in Ottsville, <br> PA. It serves mainly as a family retreat <br> for the Garces family, and it also <br> supplies our East Coast restaurants <br> with the finest locally grown organic <br> vegetables, fruits, eggs and honey <br> year-round.</p>
+         <a class = "learnMore" href="http://garcesgroup.com/luna-farm"><button>Learn More ></button></a>
+       </div>
+       <div class="db-col-4" data-aos="fade-up" data-aos-easing="ease"
+     data-aos-duration="2500">
+				 <div class="pull-left">
+         <img src="img/Garces-Events.png" alt="">
+         <h2><b>Garces Events</b></h2>
+         <p>Elevate your occasion with a <br> menu featuring Chef Garces’ <br> award-winning cuisine. Garces <br> Catering works with you to design a <br> personalized menu for your <br> corporate or personal event.</p>
+         <a class = "learnMore" href="http://garcesgroup.com/garces-events"><button>Learn More ></button></a>
+				 </div>
+       </div>
+     </div>
+   </div>
+ </div>
+	<div class="row text-center relative">
+		<div class="db-col-12 no-padding">
+			<div class="Triangle absolute"></div>
+		</div>
+	</div>
+ <div id="getSocial" class="full-ctn text-center whiteTxt relative">
+   <div class="fixed-ctn">
+     <div class="row">
+       <div class="db-col-6 exclamation" data-aos="zoom-in-up" data-aos-easing="ease"
+     data-aos-duration="1700">
+					 <h1 class = "text-left">
+							FOLLOW US <br> @GARCESGROUP <br> FOR NEWS <br> AND UPDATES 
+       </div>
+       <div class="db-col-6">
+				 <div class="pull-left">
+<!-- 					 <img src="img/Twitter-Feed.png" alt=""> -->
+					 <a class="twitter-timeline" data-width="460" data-height="350" data-theme="dark" data-link-color="#ec2327" href="https://twitter.com/GarcesGroup">Tweets by GarcesGroup</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				 </div>
+       </div>
+     </div>
+   </div>
+	<div class="row overlay2 absolute">
+				<div class="db-col-12"></div>
+			</div>
+ </div>
+  <div id="footer" class="full-ctn">
+    <div class="fixed-ctn">
+      <div class="row">
+        <div class="db-col-3 text-center" data-aos="zoom-out" data-aos-easing="ease"
+     data-aos-duration="1500">
+          <img class = "garcesFooter" src="img/Garces-Logo-(Footer).png" alt="">
+        </div>
+        <div class="db-col-3 location" data-aos="zoom-out" data-aos-easing="ease"
+     data-aos-duration="2000">
+          <h4 class = "no-margin-bottom">Location:</h4>
+          <p class = "no-margin-top">2401 Walnut St #300, <br> Philadelphia, PA 19103 <br>
+(267) 284-7900</p>
+        </div>
+        <div class="db-col-3 subscribe" data-aos="zoom-out" data-aos-easing="ease"
+     data-aos-duration="2500">
+          <h4 class = "no-margin-bottom">Subscribe:</h4>
+          <p class = "no-margin-top">Join our mailing list today!</p>
+          <a class = "joinNow" href="http://garcesgroup.us12.list-manage1.com/subscribe?u=cc665980d764a22988bd828e7&id=31a071b5d3"><button>Join Now! ></button></a>
+        </div>
+        <div class="db-col-3 followUs" data-aos="zoom-out" data-aos-easing="ease"
+     data-aos-duration="3000">
+          <h4 class = "no-margin-bottom">Follow Us On:</h4>
+          <ul>
+            <li class = "socialIcon"><a href = "https://www.facebook.com/garcesgroup"><img src="img/Facebook.png" alt=""></a></li>
+            <li class = "socialIcon"><a href = "https://twitter.com/GarcesGroup"><img src="img/Twitter.png" alt=""></a></li>
+            <li class = "socialIcon"><a href = "https://www.instagram.com/garcesgroup/"><img src="img/Instagram.png" alt=""></a></li>
+            <li class = "socialIcon"><a href = "https://www.pinterest.com/GarcesEvents/"><img src="img/Pinterest.png" alt=""></a></li>
+            <li class = "socialIcon"><a href = "https://www.youtube.com/user/TheGarcesGroup"><img src="img/Youtube.png" alt=""></a></li>
+            <li class = "socialIcon"><a href = "https://www.linkedin.com/company/garces-restaurant-group"><img src="img/Linkedin.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+	<script src = "js/scripts.js"></script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	 <script src="js/aos.js"></script>
+<!-- 	 <script>
+    AOS.init();
+  </script> -->
+</body>
+</html>

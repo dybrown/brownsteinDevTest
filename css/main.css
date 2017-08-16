@@ -1,0 +1,61 @@
+/*--- Responsive Grid ---*/
+.db-container{
+  width:100%;
+  max-width:1500px;
+  margin:0 auto;
+}
+.db-container *{
+  box-sizing:border-box;
+}
+.row:before,
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+[class*='db-col-']{
+  float:left;
+  min-height:1px;
+  width:12.5%;
+  padding:12px;
+}
+
+.db-col-1{
+  width:12.5%;
+}
+.db-col-2{
+  width:25%;
+}
+.db-col-3{
+  width:37.5%;
+}
+.db-col-4{
+  width:50%;
+}
+.db-col-5{
+  width:62.5%;
+}
+.db-col-6{
+  width:75%;
+}
+.db-col-7{
+  width:87.5%;
+}
+.db-col-8{
+  width:100%;
+}
+
+.outline, .outline *{
+    outline: 1px solid #f68f00; 
+}
+
+[class*='db-col-'] > p {
+     background-color: #FFC2C2; 
+     padding: 0;
+     margin: 0;
+     text-align: center; 
+     color: white; 
+    }
+
+
