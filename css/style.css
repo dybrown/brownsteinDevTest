@@ -388,6 +388,9 @@ nav .logo, nav .menu{
   .overlay, .overlay2{
     display:none;
   }
+  .numberText{
+    display:none;
+  }
   .logo img{
     float:left;
     padding:10px;
@@ -402,6 +405,12 @@ nav .logo, nav .menu{
     left: 0;
     width: 100%;
     background-color: rgba(0,0,0,0.7);
+    display:none;
+  }
+  #getSocial h1{
+    font-size:2.35em;
+  }
+  #getSocial br{
     display:none;
   }
 	#myIcons{
@@ -438,12 +447,6 @@ nav .logo, nav .menu{
 	/*.overlay, .overlay2{
 		display:none;
 	}*/
-	.numberText{
-		display:none;
-	}
-  #getSocial h1{
-    font-size:2.35em;
-  }
   .Triangle{
 /*     left:40%;
     right:40%; */
