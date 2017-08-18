@@ -385,9 +385,15 @@ nav .logo, nav .menu{
 	nav{
 		    background-color: rgba(0,0,0,1);
 	}
+  .overlay, .overlay2{
+    display:none;
+  }
   .logo img{
     float:left;
     padding:10px;
+  }
+  .controls{
+    display:none;
   }
   .mobileMenu{
     position: absolute;
@@ -426,15 +432,12 @@ nav .logo, nav .menu{
 }
 
 @media only screen and (max-width:768px){
-  .controls{
-    display:none;
-  }
 	.prev, .next{
 		top:81px;
 	}
-	.overlay, .overlay2{
+	/*.overlay, .overlay2{
 		display:none;
-	}
+	}*/
 	.numberText{
 		display:none;
 	}
