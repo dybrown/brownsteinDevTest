@@ -381,7 +381,7 @@ nav .logo, nav .menu{
 }
 
 /* Media Queries*/
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1025px){
 	nav{
 		    background-color: rgba(0,0,0,1);
 	}
